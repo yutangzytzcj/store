@@ -31,7 +31,7 @@ public class UserMapperTests {
 	
 	@Test
 	public void updatePassword() {
-		Integer uid=9;
+		Integer uid=2;
 		String password="6789";
 		String modifiedUser="炒鸡管理员";
 		Date modifiedTime=new Date();
@@ -72,7 +72,7 @@ public class UserMapperTests {
 	
 	@Test
 	public void findByUid() {
-		User user=mapper.findByUid(12);
+		User user=mapper.findByUid(1);
 		System.err.println(user);
 	}
 	
